@@ -14,7 +14,12 @@ To write a Python program that filters out and returns all elements from a list 
 5. Print the final filtered list.
 
 ## 🧾 Program
-Add code here
+```
+items=[153,147,124,102]
+print(sum(items))
+```
 ## Output
+<img width="527" height="178" alt="517429032-7868b775-0061-429f-8c1c-d96ebe4a7a6d" src="https://github.com/user-attachments/assets/83789f2b-6760-48e1-b547-cddb8d564e94" />
 
 ## Result
+Thus the program executed successfully.
