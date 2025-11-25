@@ -134,3 +134,10 @@ print("8" in tuplex)
 
 ## Result
 Thus the program executed successfully.
+
+
+## REVIEW PAGE FOR MODULE
+
+
+<img width="1919" height="879" alt="image" src="https://github.com/user-attachments/assets/1f85d206-42c9-477e-8e2f-579f7e4d7890" />
+
