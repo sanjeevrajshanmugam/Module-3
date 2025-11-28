@@ -1,60 +1,9 @@
-# List Operations in Python: Sum of List Items
+# A) Strings-Remove Nth Index Character from a String
 
-## 🎯 Aim
-To write a Python program that calculates the **sum of all elements** in a list.
-
-## 🧠 Algorithm
-1. Define a list of numbers.
-2. Use Python’s built-in `sum()` function to calculate the total.
-3. Print the result.
-
-## 🧾 Program
-```
-items=[153,147,124,102]
-print(sum(items))
-```
-
-## Output
-<img width="271" height="159" alt="517428550-bf8ca470-93b1-4014-ac4e-a988b7b95d0d" src="https://github.com/user-attachments/assets/440cdbce-81d5-40c7-94ea-7d871cd855df" />
-
-## Result
-Thus the program executed successfully.
-
-
-# Regex in Python: Filter Words Without the Letter 'e'
-
-## 🎯 Aim
-To write a Python program that filters out and returns all elements from a list **that do not contain the letter `'e'`**, using **regular expressions (regex)**.
-
-## 🧠 Algorithm
-1. Import the `re` module.
-2. Initialize an empty list `l1` to store results.
-3. Define a list of words:  
-   `items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']`
-4. Iterate through each word in the list:
-   - Use `re.search(r"e", i)` to check if the word contains `'e'`.
-   - If **not**, append the word to `l1`.
-5. Print the final filtered list.
-
-## 🧾 Program
-```
-items=[153,147,124,102]
-print(sum(items))
-```
-## Output
-<img width="527" height="178" alt="517429032-7868b775-0061-429f-8c1c-d96ebe4a7a6d" src="https://github.com/user-attachments/assets/83789f2b-6760-48e1-b547-cddb8d564e94" />
-
-## Result
-Thus the program executed successfully.
-
-
-# Module-3
-# 🧹 Strings-Remove Nth Index Character from a String
-
-## 🎯 Aim
+##  Aim
 To write a Python program that accepts a string and removes the character at a specified index.
 
-## 🧠 Algorithm
+##  Algorithm
 1. Define a function named `remove` that takes the input string as an argument.
 2. Read the index `n` from the user input.
 3. Initialize an empty string `a` to store the new string.
@@ -64,7 +13,7 @@ To write a Python program that accepts a string and removes the character at a s
 7. After the loop, return the modified string `a`.
 8. Print the final result.
 
-## 💻 Program
+##  Program
 ```
 n=int(input())
 def remove(a):
@@ -80,12 +29,12 @@ def remove(a):
 Thus the program executed successfully.
 
 
-# Strings-Palindrome Check in Python (Without Built-in Functions)
+# B) Strings-Palindrome Check in Python (Without Built-in Functions)
 
-## 🎯 Aim
+##  Aim
 To write a Python program to check whether the string `"google"` is a **palindrome** or not, without using built-in palindrome checking functions.
 
-## 🧠 Algorithm
+##  Algorithm
 1. Assign the string `"google"` to a variable.
 2. Reverse the string manually using slicing (`[::-1]`).
 3. Compare the original string with the reversed string.
@@ -93,7 +42,7 @@ To write a Python program to check whether the string `"google"` is a **palindro
    - Otherwise, print that it is not a palindrome.
 4. Execute the program.
 
-## 🧾 Program
+##  Program
 ```
 def palindrome(a):
     x1=a[::-1]
@@ -112,18 +61,68 @@ palindrome(string)
 Thus the program executed successfully.
 
 
-# Tuple in Python: Check Element Existence
+# C) Regex in Python: Filter Words Without the Letter 'e'
 
-## 🎯 Aim
+## Aim
+To write a Python program that filters out and returns all elements from a list **that do not contain the letter `'e'`**, using **regular expressions (regex)**.
+
+##  Algorithm
+1. Import the `re` module.
+2. Initialize an empty list `l1` to store results.
+3. Define a list of words:  
+   `items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']`
+4. Iterate through each word in the list:
+   - Use `re.search(r"e", i)` to check if the word contains `'e'`.
+   - If **not**, append the word to `l1`.
+5. Print the final filtered list.
+
+##  Program
+```
+items=[153,147,124,102]
+print(sum(items))
+```
+## Output
+<img width="527" height="178" alt="517429032-7868b775-0061-429f-8c1c-d96ebe4a7a6d" src="https://github.com/user-attachments/assets/83789f2b-6760-48e1-b547-cddb8d564e94" />
+
+## Result
+Thus the program executed successfully.
+
+
+
+# D) List Operations in Python: Sum of List Items
+
+## Aim
+To write a Python program that calculates the **sum of all elements** in a list.
+
+##  Algorithm
+1. Define a list of numbers.
+2. Use Python’s built-in `sum()` function to calculate the total.
+3. Print the result.
+
+##  Program
+```
+items=[153,147,124,102]
+print(sum(items))
+```
+
+## Output
+<img width="271" height="159" alt="517428550-bf8ca470-93b1-4014-ac4e-a988b7b95d0d" src="https://github.com/user-attachments/assets/440cdbce-81d5-40c7-94ea-7d871cd855df" />
+
+## Result
+Thus the program executed successfully.
+
+# E) Tuple in Python: Check Element Existence
+
+##  Aim
 To write a Python program that checks if the element `'n'` and the element `8` exist within a given tuple.
 
-## 🧠 Algorithm
+##  Algorithm
 1. Define a tuple `x` with some letters and numbers.
 2. Use the `in` operator to check if the string `'n'` exists within the tuple.
 3. Use the `in` operator to check if the integer `8` exists within the tuple.
 4. Print the results.
 
-## 🧾 Program
+##  Program
 ```
 tuplex = input()
 print("n" in tuplex)
@@ -136,8 +135,4 @@ print("8" in tuplex)
 Thus the program executed successfully.
 
 
-## REVIEW PAGE FOR MODULE
-
-
-<img width="1919" height="879" alt="image" src="https://github.com/user-attachments/assets/1f85d206-42c9-477e-8e2f-579f7e4d7890" />
 
